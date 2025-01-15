@@ -1,3 +1,4 @@
+print("Be sure to edit the ME Bridge location and Monitor Location by editing this program.")
 mon = peripheral.wrap("top")
 me = peripheral.wrap("left")
 mon.clear()
