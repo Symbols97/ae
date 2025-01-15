@@ -23,7 +23,7 @@ center(1,"AE Storage Info")
 
     local availableStorage = me.getAvailableItemStorage() 
     
-    local used = maxStorage - availableStorage 
+    local used = me.getUsedItemStorage() 
     
     if maxStorage == 0 then
     mon.setCursorPos(1,2)
